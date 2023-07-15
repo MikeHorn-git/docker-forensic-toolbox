@@ -1,7 +1,6 @@
 # Docker forensic toolbox
 
-![Whale](https://github.com/MikeHorn-git/docker-forensic-toolbox/assets/123373126/6390502e-e762-4d09-be11-6a7940cffb09)
-
+![Whale](https://github.com/MikeHorn-git/docker-forensic-toolbox/assets/123373126/b6897176-b7dd-4cec-ae55-9bcdc93c6e12)
 
 # Informations
 * Credentials : forensic:forensic
@@ -16,7 +15,7 @@ git clone htps://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
 docker build -t "forensic" .
 docker images
-docker run -it $Image_ID
+#docker run -it $Image_ID
 ```
 
 
