@@ -3,7 +3,7 @@
 ![Whale](https://github.com/MikeHorn-git/docker-forensic-toolbox/assets/123373126/b6897176-b7dd-4cec-ae55-9bcdc93c6e12)
 
 # Informations
-* Credentials : forensic:forensic
+* Credential : forensic:forensic
 * From : Debian Bookworm
 * Size : Around 750MB
 * Time : Few minutes to build
@@ -15,12 +15,12 @@ git clone htps://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
 docker build -t "forensic" .
 docker images
-# docker run -it $Image_ID
+# docker run -it $Image ID
 ```
 
 
 # Tools
-FORENSICS
+FORENSIC
 * [alleap](https://github.com/abrignoni/ALEAPP) Android Logs Events And Protobuf Parser
 * [binwalk](https://github.com/ReFirmLabs/binwalk) Firmware Analysis Tool
 * [ewf-tools](https://github.com/libyal/libewf) Library to access the Expert Witness Compression Format 
