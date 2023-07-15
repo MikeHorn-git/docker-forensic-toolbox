@@ -1,6 +1,7 @@
 # Docker forensic toolbox
 
-![alt text](https://cdn.pixabay.com/photo/2017/02/09/12/07/ocean-2051760_960_720.jpg)
+![Whale](https://github.com/MikeHorn-git/docker-forensic-toolbox/assets/123373126/6390502e-e762-4d09-be11-6a7940cffb09)
+
 
 # Informations
 * Credentials : forensic:forensic
@@ -15,8 +16,8 @@ git clone htps://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
 docker build -t "forensic" .
 docker images
-```
 docker run -it $Image_ID
+```
 
 
 # Tools
@@ -30,7 +31,7 @@ FORENSICS
 * [mvt](https://github.com/mvt-project/mvt) Conducting forensics of mobile devices in order to find signs of a potential compromise
 * [ntfs-3g](https://github.com/tuxera/ntfs-3g) Safe Read/Write NTFS Driver 
 * [parted](https://wiki.archlinux.org/title/Parted) A program for creating, destroying, resizing, checking and copying partitions
-* [recuperabit](https://github.com/Lazza/RecuperaBit)A tool for forensic file system reconstruction
+* [recuperabit](https://github.com/Lazza/RecuperaBit) A tool for forensic file system reconstruction
 * [regripper](https://github.com/keydet89/RegRipper3.0) RegRipper is an open source forensic software used as a Windows Registry data extraction tool
 * [sleuthkit](https://github.com/sleuthkit/sleuthkit) Library and collection of command line digital forensics tools
 * [tashark](https://www.wireshark.org/docs/man-pages/tshark.html)  Dump and analyze network traffic
