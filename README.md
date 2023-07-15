@@ -6,7 +6,7 @@
 * Credentials : forensic:forensic
 * From : Debian Bookworm
 * Size : Around 750MB
-* Time : Few minutes too build
+* Time : Few minutes to build
 
 
 # Installation
@@ -15,7 +15,7 @@ git clone htps://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
 docker build -t "forensic" .
 docker images
-#docker run -it $Image_ID
+# docker run -it $Image_ID
 ```
 
 
