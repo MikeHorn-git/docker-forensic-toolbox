@@ -1,4 +1,4 @@
-# Docker forensic toolbox
+# Docker-forensic-toolbox
 
 ![Whale](https://github.com/MikeHorn-git/docker-forensic-toolbox/assets/123373126/b6897176-b7dd-4cec-ae55-9bcdc93c6e12)
 
@@ -14,13 +14,9 @@
 git clone htps://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
 docker build -t "forensic" .
-docker images
-# docker run -it $Image ID
 ```
 
-
-# Tools
-FORENSIC
+# Forensic tools
 * [alleap](https://github.com/abrignoni/ALEAPP) Android Logs Events And Protobuf Parser
 * [binwalk](https://github.com/ReFirmLabs/binwalk) Firmware Analysis Tool
 * [ewf-tools](https://github.com/libyal/libewf) Library to access the Expert Witness Compression Format 
@@ -37,7 +33,7 @@ FORENSIC
 * [volatility3](https://github.com/volatilityfoundation/volatility3) Advanced memory forensics framework
 * [xmount](https://www.pinguin.lu/xmount) Tool to crossmount between multiple input and output harddisk image files
 
-MISCELLANEOUS
+# Miscellaneous tools
 * [htop](https://github.com/htop-dev/htop) Interactive process viewer
 * [john the ripper](https://github.com/openwall/john) Advanced offline password cracker
 * [loki](https://github.com/Neo23x0/Loki) Simple IOC and YARA Scanner
