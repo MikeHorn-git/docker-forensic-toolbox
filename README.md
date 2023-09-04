@@ -4,7 +4,7 @@
 
 # Informations
 * Credential : forensic:forensic
-* From : Debian Bookworm
+* From : Debian Bookworm Slim
 * Size : Around 750MB
 * Time : Few minutes to build
 
