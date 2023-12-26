@@ -18,6 +18,7 @@ sudo docker build -t "forensic" .
 # Forensic tools
 * [alleap](https://github.com/abrignoni/ALEAPP) Android Logs Events And Protobuf Parser.
 * [binwalk](https://github.com/ReFirmLabs/binwalk) Firmware Analysis Tool.
+* [exiftool](https://github.com/exiftool/exiftool)  ExifTool meta information reader/writer.
 * [ewf-tools](https://github.com/libyal/libewf) Library to access the Expert Witness Compression Format.
 * [foremost](https://github.com/korczis/foremost) File carving.
 * [file](https://packages.debian.org/bookworm/file) Recognize the type of data in a file using "magic" numbers.
@@ -42,7 +43,7 @@ sudo docker build -t "forensic" .
 * [yara](https://github.com/VirusTotal/yara) The pattern matching swiss knife.
 
 # Security
-* The forensic docker image is scan with [trivy](https://github.com/aquasecurity/trivy) for improve security.
+* The forensic docker image is scan with [trivy](https://github.com/aquasecurity/trivy) for improve security: trivy image --ignore-unfixed forensic:latest
 * Install [docker-bench-security](https://github.com/docker/docker-bench-security) for hardening your host.
 
 # Versions 1.1 
