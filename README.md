@@ -13,7 +13,7 @@
 ```bash
 git clone htps://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
-sudo docker build -t "forensic" .
+sudo docker build -t "dft" .
 ```
 
 # Tools
