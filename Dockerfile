@@ -98,8 +98,11 @@ RUN wget https://github.com/volatilityfoundation/volatility3/archive/refs/heads/
     mv volatility3-develop volatility3 &&                                                                  \
     rm -rf ./develop.zip
 
+RUN pip3 install --upgrade protobuf --no-cache-dir --break-system-packages
+
 
 RUN rm -rf /var/cache/apt/archives/*deb /var/lib/apt/lists/*
+
 
 USER forensic
 ENTRYPOINT bash
