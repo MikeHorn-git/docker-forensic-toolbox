@@ -49,6 +49,6 @@ sudo docker build -t "forensic" .
 
 # Versions 1.1 
 * Add new tools (iLEAPP, python-evt, python-ntfs).
-* Add security sections and update protobof version for patch vulns [CVE-2021-22570 | CVE-2022-1941] detected with trivy.
+* Add security sections and update protobof version for patch vulns [CVE-2021-22570 and CVE-2022-1941] detected with trivy.
 * Delete tools.txt.
 * Remove miscellaneous tools (htop, john, ssdeep) for a lighter image.
