@@ -42,10 +42,10 @@ sudo docker build -t "forensic" .
 * [yara](https://github.com/VirusTotal/yara) The pattern matching swiss knife.
 
 # Security
+* The forensic docker image is scan with [trivy](https://github.com/aquasecurity/trivy) for improve security.
 * Install [docker-bench-security](https://github.com/docker/docker-bench-security) for hardening your host.
 
-# Versions
-1.1 
+# Versions 1.1 
 * Add new tools (iLEAPP, python-evt, python-ntfs).
 * Delete tools.txt.
 * Remove miscellaneous tools (htop, jhon, ssdeep) for lighter image.
