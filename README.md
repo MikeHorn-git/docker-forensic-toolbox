@@ -13,6 +13,14 @@
 ```bash
 git clone htps://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
+```
+## Docker Compose
+```bash
+sudo docker-compose up -d
+```
+
+## Dockerfile
+```bash
 sudo docker build -t "dft" .
 ```
 
@@ -47,7 +55,10 @@ sudo docker build -t "dft" .
 * The forensic Docker image is scanned with [trivy](https://github.com/aquasecurity/trivy) to improve security.
 * Install [docker-bench-security](https://github.com/docker/docker-bench-security) for hardening your host.
 
-# Versions 1.1 
+# Versions 1.2
+* Add docker-compose.yml.
+
+# Versions 1.1
 * Add new tools (iLEAPP, python-evt, python-ntfs).
 * Add security sections and update protobof version for patch vulns [CVE-2021-22570 and CVE-2022-1941] detected with trivy.
 * Delete tools.txt.
