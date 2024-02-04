@@ -1,0 +1,13 @@
+version: '3'
+services:
+  dft:
+    build: .
+    image: dft
+    container_name: dft
+    user: forensic
+    entrypoint: bash
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data:/tools/data
+
