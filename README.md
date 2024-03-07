@@ -11,7 +11,7 @@
 
 # Installation
 ```bash
-git clone htps://github.com/MikeHorn-git/docker-forensic-toolbox.git
+git clone https://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
 ```
 ## Docker Compose
