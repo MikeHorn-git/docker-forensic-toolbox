@@ -10,16 +10,21 @@
 * Trivy : 0 unfixed vulnerabilities.
 
 # Installation
+## Docker Hub
+```bash
+sudo docker pull mikehorn/dft:latest
+```
+## Build Yourself
 ```bash
 git clone https://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
 ```
-## Docker Compose
+### Docker Compose
 ```bash
 sudo docker-compose up -d
 ```
 
-## Dockerfile
+### Dockerfile
 ```bash
 sudo docker build -t "dft" .
 ```
