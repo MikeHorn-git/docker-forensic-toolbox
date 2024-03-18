@@ -14,11 +14,13 @@
 ```bash
 sudo docker pull mikehorn/dft:latest
 ```
+
 ## Build Yourself
 ```bash
 git clone https://github.com/MikeHorn-git/docker-forensic-toolbox.git
 cd docker-forensic-toolbox
 ```
+
 ### Docker Compose
 ```bash
 sudo docker-compose up -d
